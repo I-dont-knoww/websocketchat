@@ -124,5 +124,3 @@ function createSocketAccept(id) {
         console.error(`Error! Event: ${event},  Message: ${error.stack || error}`);
     })
 );
-
-setInterval(_ => console.log(Object.entries(sockets).length), 1000);
